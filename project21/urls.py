@@ -23,3 +23,6 @@ urlpatterns = [
     path('insert_webpage/',insert_webpage,name='insert_webpage'),
     path('insert_a_r/',insert_a_r,name='insert_a_r'),
 ]
+admin.site.site_header='venkey'
+admin.site.site_title='mass'
+admin.site.index_title='venkey'
